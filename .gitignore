@@ -2,5 +2,5 @@
 /express/.env
 /node_js/node_modules
 /node_js/.env
-new_express_revision/node_modules
-new_express_revision/.env
+new_express/node_modules
+new_express/.env
