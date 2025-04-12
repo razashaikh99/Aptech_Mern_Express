@@ -53,7 +53,9 @@ let health_Info = async function () {
 }
 
 let app = exp();
+app.use(exp.json())
 app.use("/", r)
+
 
 db().then(() => {
     // user_Model();   

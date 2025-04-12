@@ -10,4 +10,6 @@ route.get("/h", func.Help);
 route.get("/fa", func.Faqs);
 route.get("/p", func.PrivacyPolicy);
 
+route.post("/save",func.saveData)
+
 module.exports = route;
