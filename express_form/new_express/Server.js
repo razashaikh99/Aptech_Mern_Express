@@ -5,6 +5,8 @@ let db = require("./MongodbConnection");
 let user = require("./Collections/UserModel");
 let perRecord = require("./Collections/PersonalRecord");
 let HealInfo = require("./Collections/Healthinfo");
+// import cors
+let cor = require("cors");
 // import env file
 require("dotenv").config();
 
@@ -53,6 +55,7 @@ let health_Info = async function () {
 }
 
 let app = exp();
+app.use(cor());
 app.use(exp.json())
 app.use("/", r)
 

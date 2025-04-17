@@ -1,4 +1,5 @@
 /express/node_modules
 /node_js/node_modules
-new_express/node_modules
+express_form/new_express/node_modules
+express_form/frontend/node_modules
 Mern_Assignment/basic_routing/node_modules
