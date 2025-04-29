@@ -26,8 +26,9 @@ export default function Navbar() {
                   <li><a href="./class-details.html">Classes</a></li>
                   <li><a href="./services.html">Services</a></li>
                   <li><a href="./team.html">Our Team</a></li>
-                  <Link to="/register">Register</Link>
                   <li><a href="./contact.html">Contact</a></li>
+                  <li><Link to="/register">Register</Link></li>
+                  {/* <Link to="/register">Register</Link> */}
                 </ul>
               </nav>
             </div>
@@ -51,6 +52,7 @@ export default function Navbar() {
         </div>
       </header>
       {/* // Header End */}
+      
     </div>
   )
 }

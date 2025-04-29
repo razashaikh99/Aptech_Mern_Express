@@ -1,92 +1,100 @@
 /* General Styles */
+body {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230519/pngtree-an-empty-gym-with-dark-grey-walls-image_2569912.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+}
+
 .register-section {
-    padding: 80px 0;
-    background-color: #f4f4f4;
-  }
-  
-  .register-text {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .register-text span {
-    font-size: 18px;
-    color: #ff5e5b;
-    font-weight: bold;
-  }
-  
-  .register-text h2 {
-    font-size: 36px;
-    font-weight: 700;
-    color: #333;
-    margin-top: 10px;
-  }
-  
-  .register-text p {
-    font-size: 16px;
-    color: #777;
-    margin-top: 10px;
-  }
-  
-  .register-form {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .rf-input {
-    margin-bottom: 20px;
-  }
-  
-  .rf-input input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-  }
-  
-  .rf-input input:focus {
-    border-color: #ff5e5b;
-    outline: none;
-  }
-  
-  button.primary-btn {
-    width: 100%;
-    padding: 15px;
-    background-color: #ff5e5b;
-    border: none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  button.primary-btn:hover {
-    background-color: #e14b46;
-  }
-  
-  .register-login {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .register-login span {
-    font-size: 14px;
-    color: #777;
-  }
-  
-  .rl-link {
-    color: #ff5e5b;
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: 5px;
-  }
-  
-  .rl-link:hover {
-    text-decoration: underline;
-  }
-  
+  padding: 80px 0;
+  background-color: #f4f4f4;
+}
+
+.register-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.register-text span {
+  font-size: 18px;
+  color: #ff5e5b;
+  font-weight: bold;
+}
+
+.register-text h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 10px;
+}
+
+.register-text p {
+  font-size: 16px;
+  color: #777;
+  margin-top: 10px;
+}
+
+.register-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rf-input {
+  margin-bottom: 20px;
+}
+
+.rf-input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.rf-input input:focus {
+  border-color: #ff5e5b;
+  outline: none;
+}
+
+button.primary-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff5e5b;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button.primary-btn:hover {
+  background-color: #e14b46;
+}
+
+.register-login {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-login span {
+  font-size: 14px;
+  color: #777;
+}
+
+.rl-link {
+  color: #ff5e5b;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.rl-link:hover {
+  text-decoration: underline;
+}
