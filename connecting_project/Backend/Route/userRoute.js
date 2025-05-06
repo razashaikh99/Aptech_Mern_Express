@@ -6,5 +6,6 @@ let userLogic = require('../Controller/userLogics');
 rout.post("/user", userLogic.register);
 rout.get("/get", userLogic.getAllUser);
 rout.delete("/get/:id", userLogic.deleteUser);
+rout.put("/get/:id", userLogic.updateRecord);
 
 module.exports = rout;
