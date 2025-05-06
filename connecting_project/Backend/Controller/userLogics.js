@@ -31,6 +31,9 @@ let userFunction = {
         } catch (error) {
             res.status(501).json({message:error.message});
         }
+    },
+    updateRecord: async function (req, res){
+        
     }
 }
 
