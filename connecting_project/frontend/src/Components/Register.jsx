@@ -3,6 +3,7 @@ import axios from "axios";
 import "react-toastify/dist/ReactToastify.css";
 import { toast, ToastContainer } from "react-toastify";
 import "../Styling/Register.css"
+import { Link } from 'react-router-dom';
 
 export default function Register() {
 
@@ -95,9 +96,12 @@ export default function Register() {
                                     value={age} onChange={(e) => setAge(e.target.value)} required />
                             </div>
 
-                            <button type="submit" className="btn w-100 mt-4" style={{ backgroundColor: "#ff6a00", color: "#fff" }}>
+                            <button type="submit" className="btn w-100 mt-2" style={{ backgroundColor: "#ff6a00", color: "#fff" }}>
                                 Register Now
                             </button>
+
+                            <Link to="/login" className='mt-4 text-center text-decoration-none'>You have already Account? Please Login</Link>
+                            
                         </form>
                     </div>
                 </div>
